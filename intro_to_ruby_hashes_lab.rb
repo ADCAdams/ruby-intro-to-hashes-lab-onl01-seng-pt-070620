@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 require 'pry'
 
+=======
+>>>>>>> 97adbdd8dbcea45528ff88bf40144e3f1ffd1832
 def new_hash
   newHash = {}
 end
@@ -21,9 +24,13 @@ def monopoly_with_second_tier
 	
   monopoly = {
   	  railroads: {
+<<<<<<< HEAD
   	    pieces: 4,
   	    names:{},
   	    rent_in_dollars: {} 
+=======
+  	    pieces: 4
+>>>>>>> 97adbdd8dbcea45528ff88bf40144e3f1ffd1832
   	  }                #ends railroads
 	  
 	}                    #ends monopoly
@@ -34,6 +41,7 @@ def monopoly_with_third_tier
 	
 	
 	  monopoly = {
+<<<<<<< HEAD
 	    
   	  railroads: {
   	    
@@ -53,6 +61,15 @@ def monopoly_with_third_tier
   	  }                       #ends railroads
 	  
 	}                           #ends monopoly
+=======
+  	  railroads: {
+  	    pieces: 4
+  	    names: {}
+  	  }                #ends railroads
+	  
+	}                    #ends monopoly
+	
+>>>>>>> 97adbdd8dbcea45528ff88bf40144e3f1ffd1832
 
 end
 
